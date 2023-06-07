@@ -8,7 +8,6 @@ import androidx.paging.rxjava3.cachedIn
 import androidx.paging.rxjava3.flowable
 import com.ujangwahyu.app.data.database.RoomDB
 import com.ujangwahyu.app.data.entity.UserEntity
-import com.ujangwahyu.app.data.model.UserResponse
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

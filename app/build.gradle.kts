@@ -83,4 +83,9 @@ dependencies {
     implementation(Dependencies.RX_ANDROID)
     implementation(Dependencies.RX_BINDING)
 
+    //Testing
+    testImplementation(Dependencies.JUNIT)
+    androidTestImplementation(Dependencies.ANDROIDX_JUNIT)
+    androidTestImplementation(Dependencies.ESPRESSO)
+
 }

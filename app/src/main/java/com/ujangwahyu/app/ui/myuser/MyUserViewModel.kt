@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import com.ujangwahyu.app.data.entity.UserEntity
-import com.ujangwahyu.app.data.model.UserResponse
 import com.ujangwahyu.app.data.repository.DataRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
