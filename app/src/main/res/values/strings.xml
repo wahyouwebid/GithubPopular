@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Ujang Wahyu</string>
+    <string name="title_git_user">Git User</string>
+    <string name="title_my_user">My User</string>
+    <string name="title_content_description">ImageView</string>
+    <string name="title_hint_search_user">Search users</string>
+    <string name="title_error">There is an error</string>
+    <string name="title_error_des">API rate limit exceeded for 120.188.94.149. (But here\'s the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)</string>
+    <string name="title_try_again">Try Again</string>
+    <string name="title_error_no_internet">No Internet connection</string>
+    <string name="title_error_no_internet_des">Please check your internet connection</string>
+    <string name="title_data_is_empty">No users lis yet</string>
+    <string name="title_data_is_empty_des">Please press the + button below</string>
+    <string name="title_search">Find the Git user you need</string>
+    <string name="title_search_des">Please enter your keywords in the search bar above</string>
+    <string name="title_manage_user">Manage User</string>
+    <string name="title_input_name">Enter name</string>
+    <string name="title_name">Name</string>
+    <string name="title_role">Role</string>
+    <string name="title_input_role">Enter role</string>
+    <string name="title_github">Github</string>
+    <string name="title_input_github">Enter github user</string>
+    <string name="title_save">Save</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_field_empty">Incomplete Information</string>
+    <string name="title_field_empty_des">Please complete all required information to continue</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_confirmation">Confirmation</string>
+    <string name="title_confirmation_please_select">Please select one you want to delete or edit</string>
+    <string name="title_confirmation_delete">Delete User</string>
+    <string name="title_confirmation_delete_des">Are you sure you want to delete user %1$s?</string>
+</resources>

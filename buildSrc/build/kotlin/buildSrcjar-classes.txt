@@ -1,0 +1,1 @@
+/Users/wahyouwebid/Project/TestMaybank/buildSrc/build/classes/kotlin/main/config/AndroidConfig.class:/Users/wahyouwebid/Project/TestMaybank/buildSrc/build/classes/kotlin/main/dependencies/Dependencies.class:/Users/wahyouwebid/Project/TestMaybank/buildSrc/build/classes/kotlin/main/versions/Versions.class
