@@ -36,4 +36,7 @@ class RemoteRepository @Inject constructor(
             .let { return@let disposable::add }
     }
 
+    fun clearDisposable() {
+        disposable.dispose()
+    }
 }

@@ -52,4 +52,9 @@ class MyUserViewModel @Inject constructor(
         }
     }
 
+    override fun onCleared() {
+        super.onCleared()
+        repository.clearDisposable()
+    }
+
 }
