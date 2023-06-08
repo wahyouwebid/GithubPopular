@@ -8,7 +8,7 @@ import androidx.paging.rxjava3.cachedIn
 import androidx.paging.rxjava3.flowable
 import com.ujangwahyu.app.data.model.UserResponse
 import com.ujangwahyu.app.data.paging.GitUserPagingSource
-import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.rxjava3.disposables.CompositeDisposable
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject

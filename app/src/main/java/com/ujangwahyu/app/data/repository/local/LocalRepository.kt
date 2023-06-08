@@ -5,12 +5,12 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.rxjava3.cachedIn
-import androidx.paging.rxjava3.flowable
+import androidx.paging.rxjava3.observable
 import com.ujangwahyu.app.data.database.RoomDB
 import com.ujangwahyu.app.data.entity.UserEntity
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.schedulers.Schedulers
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.disposables.CompositeDisposable
+import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
@@ -27,8 +27,10 @@ class LocalRepository @Inject constructor(
     ) {
         Pager(PagingConfig(10)) {
             db.userDao().getUser()
-        }.flowable
+        }.observable
             .cachedIn(scope)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
             .subscribe(callback::postValue)
             .let { return@let disposable::add }
     }

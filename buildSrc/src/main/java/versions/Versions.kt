@@ -17,7 +17,7 @@ object Versions {
     const val RX_ANDROID = "3.0.0"
     const val RX_JAVA = "3.0.7"
     const val RX_BINDING = "3.0.0"
-    const val ROOM_RX = "2.4.3"
+    const val ROOM_RX = "2.6.0-alpha01"
     const val ROOM_PAGING = "2.4.0-alpha05"
     const val ROOM = "2.5.1"
     const val GLIDE = "4.12.0"

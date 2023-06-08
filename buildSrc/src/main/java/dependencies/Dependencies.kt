@@ -30,7 +30,7 @@ object Dependencies {
     const val ROOM = "androidx.room:room-ktx:${Versions.ROOM}"
     const val ROOM_RUNTIME = "androidx.room:room-runtime:${Versions.ROOM}"
     const val ROOM_COMPILER = "androidx.room:room-compiler:${Versions.ROOM}"
-    const val ROOM_RX_JAVA = "androidx.room:room-rxjava2:${Versions.ROOM_RX}"
+    const val ROOM_RX_JAVA = "androidx.room:room-rxjava3:${Versions.ROOM_RX}"
     const val ROOM_PAGING = "androidx.room:room-paging:${Versions.ROOM_PAGING}"
 
     /** UI Library **/

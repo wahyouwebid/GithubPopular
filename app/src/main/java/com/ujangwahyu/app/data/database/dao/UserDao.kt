@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import com.ujangwahyu.app.data.entity.UserEntity
-import io.reactivex.Completable
+import io.reactivex.rxjava3.core.Completable
 
 @Dao
 interface UserDao {
