@@ -22,8 +22,4 @@ class GitUserViewModel @Inject constructor(
         repository.searchUser(keyword, viewModelScope, users)
     }
 
-    override fun onCleared() {
-        super.onCleared()
-        repository.clearDisposable()
-    }
 }

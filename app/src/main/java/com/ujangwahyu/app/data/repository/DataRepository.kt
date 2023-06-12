@@ -40,9 +40,4 @@ class DataRepository @Inject constructor(
     override fun deleteUser(id: Int, onSuccess: (Boolean) -> Unit) {
         localRepository.deleteUser(id, onSuccess)
     }
-
-    override fun clearDisposable() {
-        localRepository.clearDisposable()
-        remoteRepository.clearDisposable()
-    }
 }

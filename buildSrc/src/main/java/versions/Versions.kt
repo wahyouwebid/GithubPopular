@@ -1,14 +1,11 @@
 package versions
 
 object Versions {
-    const val KOTLIN = "1.8.0"
     const val CORE = "1.9.0"
     const val APP_COMPAT = "1.6.1"
     const val ANDROID_MATERIAL = "1.6.1"
     const val CONSTRAINT_LAYOUT = "2.1.4"
-    const val FRAGMENT_KTX = "1.4.1"
     const val NAVIGATION = "2.5.3"
-    const val LIFECYCLE_SCOPE = "2.5.1"
     const val RETROFIT = "2.9.0"
     const val GSON_CONVERTER = "2.9.0"
     const val OKHTTP = "4.9.0"

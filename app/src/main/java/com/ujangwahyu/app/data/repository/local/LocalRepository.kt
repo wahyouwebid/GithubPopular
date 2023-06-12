@@ -64,8 +64,4 @@ class LocalRepository @Inject constructor(
                 { onSuccess.invoke(false) }
             ).let(disposable::add)
     }
-
-    fun clearDisposable() {
-        disposable.dispose()
-    }
 }

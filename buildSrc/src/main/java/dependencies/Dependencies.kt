@@ -7,11 +7,8 @@ object Dependencies {
     /** Android Jetpack **/
     const val ANDROIDX_CORE = "androidx.core:core-ktx:${Versions.CORE}"
     const val ANDROIDX_APPCOMPAT = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
-    const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT_KTX}"
     const val NAVIGATION_UI = "androidx.navigation:navigation-ui-ktx:${Versions.NAVIGATION}"
     const val NAVIGATION_FRAGMENT = "androidx.navigation:navigation-fragment-ktx:${Versions.NAVIGATION}"
-    const val VIEW_MODEL_KTX = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.LIFECYCLE_SCOPE}"
-    const val RUNTIME_KTX = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.LIFECYCLE_SCOPE}"
     const val ANDROIDX_CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:${Versions.CONSTRAINT_LAYOUT}"
 
     /** Networking Retfotit & OkHttp **/
@@ -48,7 +45,7 @@ object Dependencies {
     const val RX_JAVA = "io.reactivex.rxjava3:rxjava:${Versions.RX_JAVA}"
     const val RX_BINDING = "com.jakewharton.rxbinding3:rxbinding:${Versions.RX_BINDING}"
 
-    /** RxJava **/
+    /** Testing **/
     const val ANDROIDX_JUNIT = "androidx.test.ext:junit:${Versions.ANDROIDX_JUNIT}"
     const val ESPRESSO = "androidx.test.espresso:espresso-core:${Versions.ANDROID_TEST_ESPRESSO}"
     const val JUNIT = "junit:junit:${Versions.TEST_JUNIT}"

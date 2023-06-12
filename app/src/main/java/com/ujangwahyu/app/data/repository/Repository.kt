@@ -24,6 +24,4 @@ interface Repository {
     fun updateUser(data: UserEntity, onSuccess: (Boolean) -> Unit)
 
     fun deleteUser(id: Int, onSuccess: (Boolean) -> Unit)
-
-    fun clearDisposable()
 }
