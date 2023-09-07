@@ -25,6 +25,7 @@
             app:popExitAnim="@anim/anim_slide_out_right"
             app:popUpToInclusive="false"/>
     </fragment>
+
     <fragment
         android:id="@+id/manageUserFragment"
         android:name="com.ujangwahyu.app.ui.myuser.detail.ManageUserFragment"

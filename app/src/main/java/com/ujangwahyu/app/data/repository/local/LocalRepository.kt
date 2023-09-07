@@ -5,6 +5,7 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.rxjava3.cachedIn
+import androidx.paging.rxjava3.flowable
 import androidx.paging.rxjava3.observable
 import com.ujangwahyu.app.data.database.RoomDB
 import com.ujangwahyu.app.data.entity.UserEntity
@@ -27,7 +28,7 @@ class LocalRepository @Inject constructor(
     ) {
         Pager(PagingConfig(10)) {
             db.userDao().getUser()
-        }.observable
+        }.flowable
             .cachedIn(scope)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
