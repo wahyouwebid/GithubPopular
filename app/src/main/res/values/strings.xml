@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ujang Wahyu</string>
+    <string name="app_name">Github User</string>
     <string name="title_git_user">Git User</string>
     <string name="title_my_user">My User</string>
     <string name="title_content_description">ImageView</string>
